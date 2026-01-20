@@ -1,4 +1,4 @@
-# CommitToSlides 📊
+# CommitToSlides ✨ 
 
 > **Turn your git history into a presentation instantly.**
 
