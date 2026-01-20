@@ -149,7 +149,7 @@ export default function App() {
 
       {/* Footer Branding */}
       <div className="absolute bottom-6 text-m3-onSurfaceVariant/50 text-xs font-medium">
-         Powered by Gemini 3 Flash Preview
+         Made with ❤️ by <a href="https://www.linkedin.com/in/gabriele-battimelli-1201102a0/">Gabriele Battimelli</a>
       </div>
 
     </div>
