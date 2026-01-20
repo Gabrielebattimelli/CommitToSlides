@@ -1,0 +1,5 @@
+{
+  "name": "CommitToSlides",
+  "description": "Turn your GitHub commit history into professional presentations instantly using Gemini AI.",
+  "requestFramePermissions": []
+}

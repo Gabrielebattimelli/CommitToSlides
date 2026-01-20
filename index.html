@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary SEO -->
+    <title>GitHub to PPT | CommitToSlides - Turn Git Commits into Presentations</title>
+    <meta name="title" content="GitHub to PPT | CommitToSlides - Turn Git Commits into Presentations" />
+    <meta name="description" content="Instantly convert GitHub commit history into professional PowerPoint (PPTX) slides. The best AI tool to turn git commits to presentations for developer reports." />
+    <meta name="keywords" content="github to ppt, commits to presentation, git commits to slides, github history to powerpoint, ai slide generator, developer reporting tool, git log to pptx, commit history visualizer" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="author" content="CommitToSlides" />
+
+    <!-- Favicon (M3 Purple Slide Icon) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236750A4' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='3' y='3' width='18' height='18' rx='2' ry='2'/%3E%3Cline x1='3' y1='9' x2='21' y2='9'/%3E%3Cline x1='9' y1='21' x2='9' y2='9'/%3E%3C/svg%3E">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://committoslides.com/" />
+    <meta property="og:title" content="GitHub to PPT | CommitToSlides" />
+    <meta property="og:description" content="Turn your git history into a presentation instantly. Export GitHub commits to PPTX slides with AI analysis." />
+    <meta property="og:image" content="https://committoslides.com/assets/landing.png" />
+    <meta property="og:image:alt" content="CommitToSlides App Interface showing GitHub to PPT conversion" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://committoslides.com/" />
+    <meta property="twitter:title" content="GitHub to PPT | CommitToSlides" />
+    <meta property="twitter:description" content="Turn your git history into a presentation instantly. Export GitHub commits to PPTX slides with AI analysis." />
+    <meta property="twitter:image" content="https://committoslides.com/assets/landing.png" />
+
+    <!-- Structured Data (JSON-LD) for Software Application -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "CommitToSlides",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": "Web",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "description": "An AI-powered tool that analyzes GitHub repository commit history and generates professional PowerPoint presentations.",
+      "featureList": "Convert GitHub commits to PPT, AI-driven summaries, Tailwind CSS slides, PPTX export"
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Google Sans"', 'Roboto', 'Helvetica Neue', 'sans-serif'],
+              mono: ['"Roboto Mono"', 'monospace'],
+            },
+            colors: {
+              m3: {
+                primary: '#6750A4',       // M3 Purple
+                onPrimary: '#FFFFFF',
+                primaryContainer: '#EADDFF',
+                onPrimaryContainer: '#21005D',
+                
+                secondary: '#625B71',
+                
+                surface: '#FEF7FF',       // Very light lavender
+                surfaceVariant: '#E7E0EC', // Input backgrounds
+                onSurface: '#1D1B20',
+                onSurfaceVariant: '#49454F',
+                
+                outline: '#79747E',
+                
+                error: '#B3261E',
+                onError: '#FFFFFF',
+              }
+            },
+            borderRadius: {
+              '4xl': '2rem', // Extra rounded for M3 Cards
+            },
+            boxShadow: {
+              'elevation-1': '0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30)',
+              'elevation-3': '0px 4px 8px 3px rgba(0, 0, 0, 0.15), 0px 1px 3px 0px rgba(0, 0, 0, 0.30)',
+            }
+          }
+        }
+      }
+    </script>
+<style>
+  body {
+    font-family: 'Google Sans', sans-serif;
+    background-color: #FEF7FF;
+  }
+  /* Soft Dot Grid */
+  .bg-dot-grid {
+    background-image: radial-gradient(#CAC4D0 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+</style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.37.0",
+    "pptxgenjs": "https://esm.sh/pptxgenjs@^4.0.1",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "html-to-image": "https://esm.sh/html-to-image@^1.11.13",
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
+  }
+}
+</script>
+</head>
+  <body class="bg-m3-surface text-m3-onSurface antialiased h-screen overflow-hidden">
+    <div id="root" class="h-full"></div>
+    <script type="module" src="./index.tsx"></script>
+  </body>
+</html>
